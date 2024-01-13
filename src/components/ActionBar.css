@@ -1,0 +1,33 @@
+.action-bar {
+  display: grid;
+  grid-template-columns: 6fr 3fr 5fr;
+  row-gap: 1rem;
+  width: 100%;
+  background-color: white;
+  padding: 16px;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.action-bar label {
+  margin: 0 6px;
+}
+
+.action-bar input {
+  padding: 13px 8px;
+  border-color: hsl(0, 0%, 80%);
+}
+
+.action-bar label span {
+  margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .action-bar {
+    grid-template-columns: 12fr;
+  }
+  .action-bar form {
+    margin-left: 0;
+  }
+}

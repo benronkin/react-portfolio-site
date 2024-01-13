@@ -1,0 +1,85 @@
+.article-list-item {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  height: fit-content;
+  max-width: 310px;
+}
+
+.article-list-item:hover {
+  background-color: #ddd;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.article-list-item h5 {
+  color: var(--primary);
+  margin: 30px auto 20px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.article-list-item p {
+  padding: 16px;
+  text-align: center;
+}
+
+.article-list-item a,
+.article-list-item a:visited {
+  color: #666;
+}
+
+.article-list-item img {
+  width: 100%;
+  max-height: 235px;
+  position: inherit;
+  box-shadow: none;
+  -webkit-filter: brightness(100%);
+}
+.article-list-item:hover img {
+  -webkit-filter: brightness(90%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.article-list-item .drawer {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding: 16px;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.drawer span {
+  max-width: 300px;
+  overflow: hidden;
+}
+.drawer .invert {
+  transform: scaleX(-1);
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .article-list-item {
+    margin-bottom: 20px;
+    width: 360px;
+  }
+  .article-list-item img {
+    max-height: 100%;
+  }
+}
