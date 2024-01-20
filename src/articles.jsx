@@ -17,7 +17,7 @@ const articles = [
       'The client needed automation to calculate commissions for construction crews. A Google Form is used to capture work details. A Google Apps Script calculates commissions. Google Sheets reports and dashboards visualize the data for analysis and insights.',
     url: './portfolio/construction-dashboard.html',
     image: '../img/construction-card.jpg',
-    industries: ['construction'],
+    industries: ['accounting', 'construction'],
     technologies: ['form', 'sheets', 'report'],
     useCases: ['hr'],
   },
