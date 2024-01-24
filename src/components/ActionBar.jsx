@@ -95,6 +95,10 @@ export default function ActionBar({
       label: 'Yahoo',
     },
     {
+      value: 'youtube',
+      label: 'YouTube',
+    },
+    {
       value: 'zapier',
       label: 'Zapier',
     },
@@ -105,6 +109,7 @@ export default function ActionBar({
     { value: 'construction', label: 'Construction' },
     { value: 'consulting', label: 'Consulting' },
     { value: 'accounting', label: 'Finance and Accounting' },
+    { value: 'media', label: 'Media' },
     { value: 'real', label: 'Real Estate' },
     { value: 'retail', label: 'Retail' },
   ]

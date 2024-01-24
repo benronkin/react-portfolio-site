@@ -386,6 +386,17 @@ const articles = [
     description:
       'In this project, I delivered a static website generator to a  MarTech vendor who needed to showcase its solutions on demo  websites for different industry verticals. The generator is fully customizable: The client generates category  and product feeds for retail, financial services, and other verticals. The client modifies page template for each vertical. The generator then uses the feeds and the templates to generate  the static sites.',
   },
+  {
+    title: 'YouTube API to Google Sheets',
+    id: 36,
+    image: '../img/jobnimbus-merge-card.jpg',
+    url: './portfolio/youtube-to-sheet.html',
+    technologies: ['youtube'],
+    industries: ['advertising', 'media'],
+    useCases: ['collection'],
+    description:
+      'The project involved pulling information about YouTube channels and their videos and playlists, using the YouTube Data API. A Google Apps Script was built to take an arbitrary number of channel IDs, get their metadata, and then iterate through their videos and playlists and get their own metadata. All information is to be pulled into a Google Sheet.',
+  },
 ]
 
 export default articles
